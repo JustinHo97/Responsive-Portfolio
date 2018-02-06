@@ -251,3 +251,39 @@ input[type=submit] {
     max-width: 270px; 
   }
 }
+@media screen and (max-width: 768px) {
+  
+  
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .main-section {
+    max-width: 100%;
+  }
+  .sidebar {
+    max-width: 100%; 
+  }
+}
+
+@media screen and (max-width: 640px) {
+  
+  #logo {
+    width: 100%;
+    text-align: center;
+  }
+  nav {
+    margin: auto;
+    width: 80%;
+  }
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .main-section {
+    max-width: 100%;
+  }
+  .sidebar {
+    max-width: 100%; 
+  }
+}
