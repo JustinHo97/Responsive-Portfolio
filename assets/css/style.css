@@ -267,7 +267,10 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
-  
+  #masthead {
+    position: absolute;
+  }
+
   #logo {
     width: 100%;
     text-align: center;
